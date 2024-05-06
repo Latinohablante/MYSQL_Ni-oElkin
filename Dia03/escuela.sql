@@ -10,6 +10,8 @@ create table departamento(
 create table profesor(
 	id_profesor int(10) primary key,
 	id_departamento int(10) not null,
+	id_persona int(10),
+	foreign key (id_persona) references persona(id)
 	foreign key (id_departamento) references departamento(id)
 );
 
