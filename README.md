@@ -1,3 +1,6 @@
 # MYSQL_SanchezElkin
 
-Aquí voy a practicar markdown
+codigo para entrar a Betty:
+
+ssh p4student@172.16.101.126
+clave: CC
